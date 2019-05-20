@@ -5,8 +5,7 @@
 #import "Constants.h"
 #import "Cfp.h"
 
-SpecBegin(NetworkTests)
-
+SpecBegin(SpectaNetworkTests)
     describe(@"API", ^{
         it(@"should load conference list", ^{
             waitUntil(^(DoneCallback done) {

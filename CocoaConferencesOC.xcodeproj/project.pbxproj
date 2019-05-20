@@ -12,6 +12,7 @@
 		62E985290E7994806BDD55B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E985E019337B4166E62F9D /* Main.storyboard */; };
 		62E985C3DBD2F01C2833C2CF /* CocoaConferencesOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E986AC285B8C923A5ADAEB /* CocoaConferencesOCUITests.m */; };
 		62E985DF028D9F4EF4FBD112 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9818E8D120AC3F52375B4 /* ViewController.m */; };
+		62E986268E8972A76ED0978B /* ClassicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E98CADF92781E38C4C6D8E /* ClassicTests.m */; };
 		62E986FE46ED3608359F3F8E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 62E98BAE398D73D053548E81 /* .gitignore */; };
 		62E98720C23C2197B9D9EE20 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E98E4B3850FC05508511EB /* Conference.m */; };
 		62E987906A07257A4C5BE27E /* Cfp.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9838CD87DCC9FD18D09E7 /* Cfp.m */; };
@@ -19,7 +20,7 @@
 		62E98A6F3FB1C8067219BA9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E98210AD079DB04BF5BFD2 /* main.m */; };
 		62E98AD00ACED6B912B68379 /* ConferenceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9837B3DDB1D00F26C8303 /* ConferenceCell.m */; };
 		62E98B35B2F825BFC4DAB46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E98AA0BC065B4D9F879EA0 /* Assets.xcassets */; };
-		62E98BBE614F97A6AF981B1C /* CocoaConferencesOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E983692D891B37454B8221 /* CocoaConferencesOCTests.m */; };
+		62E98BBE614F97A6AF981B1C /* SpectaNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E983692D891B37454B8221 /* SpectaNetworkTests.m */; };
 		62E98D0EC40162E2C96DD73A /* ConferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9891778BD6D335BB6594E /* ConferenceViewController.m */; };
 		62E98E7EE3E22B9A879FDC97 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E9852015CA4AFE92281561 /* Constants.m */; };
 		ED0FE6DD25AC0B8FAE3334F8 /* libPods-CocoaConferencesOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3DA0CAFFA1C2B50998183F /* libPods-CocoaConferencesOC.a */; };
@@ -50,7 +51,7 @@
 		62E980D8CC878FA6C5E25B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62E9818E8D120AC3F52375B4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62E98210AD079DB04BF5BFD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62E983692D891B37454B8221 /* CocoaConferencesOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaConferencesOCTests.m; sourceTree = "<group>"; };
+		62E983692D891B37454B8221 /* SpectaNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaNetworkTests.m; sourceTree = "<group>"; };
 		62E98379BADA91C99536E8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		62E9837B3DDB1D00F26C8303 /* ConferenceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConferenceCell.m; sourceTree = "<group>"; };
 		62E9838CD87DCC9FD18D09E7 /* Cfp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cfp.m; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		62E98BAE398D73D053548E81 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		62E98BC5FD4624AB3171F7DD /* CocoaConferencesOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaConferencesOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E98BCD133D4C038E216B93 /* CocoaConferencesOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaConferencesOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E98CADF92781E38C4C6D8E /* ClassicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicTests.m; sourceTree = "<group>"; };
 		62E98CB3E5E9838250AEBEE8 /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
 		62E98E3CC5957AF322B2A238 /* CocoaConferencesOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaConferencesOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E98E4B3850FC05508511EB /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conference.m; sourceTree = "<group>"; };
@@ -176,7 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				62E98AE6DE99A691FE9CBCBA /* Info.plist */,
-				62E983692D891B37454B8221 /* CocoaConferencesOCTests.m */,
+				62E983692D891B37454B8221 /* SpectaNetworkTests.m */,
+				62E98CADF92781E38C4C6D8E /* ClassicTests.m */,
 			);
 			path = CocoaConferencesOCTests;
 			sourceTree = "<group>";
@@ -443,7 +446,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E98BBE614F97A6AF981B1C /* CocoaConferencesOCTests.m in Sources */,
+				62E98BBE614F97A6AF981B1C /* SpectaNetworkTests.m in Sources */,
+				62E986268E8972A76ED0978B /* ClassicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
