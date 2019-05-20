@@ -12,6 +12,9 @@ target 'CocoaConferencesOC' do
 
   target 'CocoaConferencesOCTests' do
     inherit! :search_paths
+    pod 'Specta'
+    pod 'AFNetworking'
+    pod 'YAMLFrameworkOrdered'
     # Pods for testing
   end
 

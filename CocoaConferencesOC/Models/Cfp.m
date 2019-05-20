@@ -13,7 +13,7 @@
     if (self = [super init]) {
         if (yaml.count > 0) {
             self.link = yaml[@"link"];
-            self.deadline = [Constants.dateFormat dateFromString:yaml[@"dealine"]];
+            self.deadline = [Constants.dateFormat dateFromString:yaml[@"deadline"]];
         }
     }
     return self;

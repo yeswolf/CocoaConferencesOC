@@ -54,9 +54,7 @@
             [self.tableView reloadData];
         }
 
-        NSLog(@"%s", [[yaml description] UTF8String]);
     }    failure:^(NSURLSessionTask *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
     }];
 }
 
